@@ -15,7 +15,6 @@ a,a:hover,a:active,a:focus { text-decoration: none!important; cursor: pointer!im
 .swiper-container { width: 100%; height: 500px; }
 .swiper-container .swiper-slide { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; background-color: #ccc; overflow: hidden; }
 
-
 .container.content { margin-top: 15px; min-height: 1250px; }
 .panel-group { overflow: auto; }
 .leftMenu { margin: 10px; margin-top: 5px; }
@@ -29,13 +28,20 @@ a,a:hover,a:active,a:focus { text-decoration: none!important; cursor: pointer!im
 
 .products-show { float: left; padding-right: 15px; padding-left: 15px; }
 .products-show h3 { margin: 0 20px; border-bottom: 2px solid #ddd; }
+.products-show h3 b { display: inline-block; float: right; font-size: 14px; height: 40px; line-height: 40px; }
 .products-title { position: relative; top: 2px; display: inline-block; height: 40px; line-height: 40px; color: #575757; font-size: 18px; font-weight: bold; padding: 0 20px; box-sizing: border-box; border-bottom: 2px solid #337ab7; }
-.products-content .pagination { float: right; }
+.products-content .pagination { float: right; margin-top: 100px; }
 .products-content .pagination li:last-child { float: left; padding: 6px 12px; }
+.products-content .row li { height: 250px; }
 .products-content .row li:hover p { transition: all .5s ease-in-out; color: #f00; }
 .products-content .row a { display: -ms-flexbox; display: flex; -ms-flex-pack: center; justify-content: center; -ms-flex-align: center; align-items: center; width: 100%; height: 200px; overflow: hidden; }
 .products-content .row p { text-align: center; color: #838383; transition: all .5s ease-in-out; }
 .products-content .row img { height: 80%; }
+
+.products-content .cright { color: #333; padding: 10px 0; font-size: 13px; overflow: hidden; }
+.cright .comgpanyimg { float: left; margin: 15px; width: 240px; overflow: hidden; display: inline; }
+.cright .profiletext { padding: 8px 12px 0 0; margin-left: auto !important; line-height: 24px; min-height: 170px; _height: 170px; display: inline; }
+.cright .profiletext p { margin: 0; text-indent: 24px; line-height: 24px; text-overflow: ellipsis; display: inline; }
 
 #footer { clear: both; margin: 50px auto 0; text-align: center; line-height: 30px; color: #fff; background: #027fc2; }
 #footer a { color: #fff; }
@@ -43,9 +49,14 @@ a,a:hover,a:active,a:focus { text-decoration: none!important; cursor: pointer!im
 .botwidth { margin: 0 auto; width: 1200px; position: relative; }
 .botmenu { padding: 29px 0 5px 0; }
 
-
 /*AD*/
 #divAd1 { position: fixed; z-index: 999; top: 40%; left: 1%; }
 #divAd2 { position: fixed; z-index: 999; top: 40%; right: 1%; }
 #divAd1 a, #divAd2 a { display: block; }
 
+.contact_info li, .search_info li { position: relative; display: block; padding: 10px 15px; }
+.contact_info li i { display: inline-block; width: 35%; text-align: right; }
+.contact_info li span { display: inline-block; width: 65%; text-align: center; }
+.search_info li input { border-color: #337ab7; }
+.search_info .input-group-btn button { outline: none; color: #fff; background-color: #337ab7; }
+.search_info .input-group-btn button:active { outline: none; color: #fff; background-color: #0969BC; }
