@@ -19,7 +19,7 @@ $head = '
     <meta name="renderer" content="webkit">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="keywords" content="旺旺,棋牌,旺旺棋牌,旺旺棋牌总代,牛牛,旺旺牛牛,旺旺牛牛总代,扎金花,旺旺扎金花,旺旺扎金花总代,斗地主,旺旺斗地主,旺旺斗地主总代">
-    <meta name="description" content="旺旺棋牌总代|旺旺棋牌邀请码8|长期收益，游戏机及配件，旺旺棋牌总代，旺旺棋牌，这里云集了众多的供应商，采购商，制造商。这是旺旺棋牌总代|旺旺棋牌邀请码8|长期收益的详细页面。旺旺棋牌游戏招商代理，旺旺棋牌下载，旺旺棋牌邀请码8，旺旺牛牛房卡版、旺旺棋牌">
+    <meta name="description" content="旺旺棋牌总代|旺旺棋牌邀请码392218|长期收益，游戏机及配件，旺旺棋牌总代，旺旺棋牌，这里云集了众多的供应商，采购商，制造商。这是旺旺棋牌总代|旺旺棋牌邀请码392218|长期收益的详细页面。旺旺棋牌游戏招商代理，旺旺棋牌下载，旺旺棋牌邀请码392218，旺旺牛牛房卡版、旺旺棋牌">
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Content-Type" content="text/html;charset=gb2312">
     <meta name="robots" content="noindex,follow">
@@ -38,25 +38,25 @@ $head = '
         <div class="nav-kuang">
             <ul class="nav nav-pills container">
                 <li role="presentation" class="active">
-                    <a href="#">首页</a>
+                    <a href="./index.html">首页</a>
                 </li>
                 <li role="presentation">
-                    <a href="#">公司介绍</a>
+                    <a href="./index.html">公司介绍</a>
                 </li>
                 <li role="presentation">
-                    <a href="#">游戏展示</a>
+                    <a href="./index.html">游戏展示</a>
                 </li>
                 <li role="presentation">
-                    <a href="#">旺旺棋牌</a>
+                    <a href="./index.html">旺旺棋牌</a>
                 </li>
                 <li role="presentation">
-                    <a href="#">新闻资讯</a>
+                    <a href="./index.html">新闻资讯</a>
                 </li>
                 <li role="presentation">
-                    <a href="#">游戏下载</a>
+                    <a href="./index.html">游戏下载</a>
                 </li>
                 <li role="presentation">
-                    <a href="#">联系我们</a>
+                    <a href="./index.html">联系我们</a>
                 </li>
             </ul>
         </div>
@@ -105,32 +105,32 @@ $head = '
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <!-- 利用data-target指定URL -->
-                                    <a herf="javascript:;" class="menu-item-left" data-target="test2.html">
+                                    <a href="./products_11.html" class="menu-item-left" data-target="test2.html">
                                         旺旺棋牌代理
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_12.html" class="menu-item-left">
                                         旺旺棋牌下载
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
-                                        旺旺棋牌邀请码8
+                                    <a href="./products_13.html" class="menu-item-left">
+                                        旺旺棋牌邀请码392218
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_14.html" class="menu-item-left">
                                         旺旺棋牌总代
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_15.html" class="menu-item-left">
                                         旺旺棋牌有外挂么
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_16.html" class="menu-item-left">
                                         旺旺棋牌微信群
                                     </a>
                                 </li>
@@ -151,32 +151,32 @@ $head = '
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <!-- 利用data-target指定URL -->
-                                    <a herf="javascript:;" class="menu-item-left" data-target="test2.html">
+                                    <a href="./products_21.html" class="menu-item-left" data-target="test2.html">
                                         旺旺牛牛代理
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_22.html" class="menu-item-left">
                                         旺旺牛牛下载
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
-                                        旺旺牛牛邀请码8
+                                    <a href="./products_23.html" class="menu-item-left">
+                                        旺旺牛牛邀请码392218
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_24.html" class="menu-item-left">
                                         旺旺牛牛总代
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_25.html" class="menu-item-left">
                                         旺旺牛牛有外挂么
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_26.html" class="menu-item-left">
                                         旺旺牛牛微信群
                                     </a>
                                 </li>
@@ -197,32 +197,32 @@ $head = '
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <!-- 利用data-target指定URL -->
-                                    <a herf="javascript:;" class="menu-item-left" data-target="test2.html">
+                                    <a href="./products_31.html" class="menu-item-left" data-target="test2.html">
                                         旺旺炸金花代理
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_32.html" class="menu-item-left">
                                         旺旺炸金花下载
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
-                                        旺旺炸金花邀请码8
+                                    <a href="./products_33.html" class="menu-item-left">
+                                        旺旺炸金花邀请码392218
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_34.html" class="menu-item-left">
                                         旺旺炸金花怎么玩
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_35.html" class="menu-item-left">
                                         旺旺炸金花有外挂么
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_36.html" class="menu-item-left">
                                         旺旺炸金花微信群
                                     </a>
                                 </li>
@@ -243,32 +243,32 @@ $head = '
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <!-- 利用data-target指定URL -->
-                                    <a herf="javascript:;" class="menu-item-left" data-target="test2.html">
+                                    <a href="./products_41.html" class="menu-item-left" data-target="test2.html">
                                         旺旺斗地主代理
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_42.html" class="menu-item-left">
                                         旺旺斗地主下载
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
-                                        旺旺斗地主邀请码8
+                                    <a href="./products_43.html" class="menu-item-left">
+                                        旺旺斗地主邀请码392218
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_44.html" class="menu-item-left">
                                         旺旺斗地主总代
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_45.html" class="menu-item-left">
                                         旺旺斗地主有外挂么
                                     </a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a herf="javascript:;" class="menu-item-left">
+                                    <a href="./products_46.html" class="menu-item-left">
                                         旺旺斗地主微信群
                                     </a>
                                 </li>
@@ -350,7 +350,6 @@ $foot = '
 
             |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/promisesp/promisesp.htm" target="_blank" rel="nofollow">免责声明</a>
 
-            |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/" rel="nofollow" target="_blank"><font color="red">删除/修改信息</font></a>
         </div>
     </div>
 
@@ -389,7 +388,7 @@ $foot = '
 </html>
 ';
 
-$myfile = fopen("../" . md5($_REQUEST["date"]) . ".html", "w+") or die("Unable to open file!");
+$myfile = fopen("../" . md5($_REQUEST["create_time"]) . ".html", "w+") or die("Unable to open file!");
 fwrite($myfile, $head);
 fwrite($myfile, base64_decode($content));
 fwrite($myfile, $foot);

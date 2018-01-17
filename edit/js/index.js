@@ -13,7 +13,7 @@ var demoHtml = $(".demo").html();
 var currenteditor = null;
 var layoutName = null;
 var parentFolder = 0;
-var host = "www.zhuxiaoyi.com";
+var host = "localhost";
 var addressSave = "http://" + host + "/wwqp/edit/save.php";
 var addressCreate = "http://" + host + "/wwqp/edit/create.php";
 var addressImg = "http://" + host + "/wwqp/edit/imgList.php";
@@ -447,6 +447,7 @@ $(document).ready(function() {
             data: datas,
             success: function(data) {
                 console.log(data);
+                console.log(date);
                 $.ajax({
                     type: "post",
                     url: addressCreate,

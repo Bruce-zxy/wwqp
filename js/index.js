@@ -49,13 +49,30 @@ $("#divAd1, #divAd2").click(function (e) {
     this.style.display = "none";
 })
 
-$.ajax({
-    type: "post",
-    url: "./edit/getAll.php",
-    success: function(data) {
-        forInProducts(data);
-    },
-    error: function(a, b) {
-        alert('向服务器请求数据失败！');
-    }
-})
+
+var input = $("input[type=hidden]");
+
+if (input.length === 1) {
+    $.ajax({
+        type: "post",
+        data: { name: input.val() },
+        url: "./edit/search.php",
+        success: function(data) {
+            forInProducts(data);
+        },
+        error: function(a, b) {
+            alert('向服务器请求数据失败！');
+        }
+    })
+} else {
+    $.ajax({
+        type: "post",
+        url: "./edit/getAll.php",
+        success: function(data) {
+            forInProducts(data);
+        },
+        error: function(a, b) {
+            alert('向服务器请求数据失败！');
+        }
+    })
+}
