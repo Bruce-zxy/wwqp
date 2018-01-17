@@ -18,7 +18,7 @@ class DB
 
         $this->table = $table;
 
-        $this->conn = mysqli_connect("127.0.0.1", "root", "19950224", "wwqp");
+        $this->conn = mysqli_connect("localhost", "root", "19950224", "wwqp");
 
         mysqli_query($this->conn, "set names utf8");
 

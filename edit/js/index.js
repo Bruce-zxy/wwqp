@@ -448,7 +448,6 @@ $(document).ready(function() {
             data: datas,
             success: function(data) {
                 console.log(data);
-                console.log(date);
                 $.ajax({
                     type: "post",
                     url: addressCreate,
