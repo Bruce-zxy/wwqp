@@ -1,3 +1,21 @@
+var name = '';
+var input = $("input[type=hidden]");
+var url = location.search;
+var Request = new Object();
+
+(function () {
+    if (url.indexOf("?") != -1) {　　
+        var str = url.substr(1)　 //去掉?号
+        strs = str.split("&");
+        for (var i = 0; i < strs.length; i++)　　 {
+            Request[strs[i].split("=")[0]] = decodeURI(strs[i].split("=")[1]);　　
+        }
+    }
+    if(Request["name"]) {
+        name = Request["name"];
+    }
+})();
+
 var products = function (name, link, imgSrc, createTime) {
     var docfrag = document.createDocumentFragment();
     var LI = document.createElement('li');
@@ -25,6 +43,32 @@ var forInProducts = function (data) {
     }
 }
 
+if (input.length === 1 || name) {
+    console.log(name);
+    $.ajax({
+        type: "post",
+        data: { name: input.val() || name },
+        url: "./edit/search.php",
+        success: function(data) {
+            forInProducts(data);
+        },
+        error: function(a, b) {
+            alert('向服务器请求数据失败！');
+        }
+    })
+} else {
+    $.ajax({
+        type: "post",
+        url: "./edit/getAll.php",
+        success: function(data) {
+            forInProducts(data);
+        },
+        error: function(a, b) {
+            alert('向服务器请求数据失败！');
+        }
+    })
+}
+
 var mySwiper = new Swiper ('.swiper-container', {
 	direction: 'horizontal',
     autoplay: 3000,
@@ -49,30 +93,9 @@ $("#divAd1, #divAd2").click(function (e) {
     this.style.display = "none";
 })
 
+$(".search_info .btn").click(function (e) {
+    var val = $(this).parent().parent().find("input").val();
+    window.location.href = "./search.html?name=" + val;
+})
 
-var input = $("input[type=hidden]");
 
-if (input.length === 1) {
-    $.ajax({
-        type: "post",
-        data: { name: input.val() },
-        url: "./edit/search.php",
-        success: function(data) {
-            forInProducts(data);
-        },
-        error: function(a, b) {
-            alert('向服务器请求数据失败！');
-        }
-    })
-} else {
-    $.ajax({
-        type: "post",
-        url: "./edit/getAll.php",
-        success: function(data) {
-            forInProducts(data);
-        },
-        error: function(a, b) {
-            alert('向服务器请求数据失败！');
-        }
-    })
-}
