@@ -393,5 +393,6 @@ fwrite($myfile, $head);
 fwrite($myfile, base64_decode($content));
 fwrite($myfile, $foot);
 fclose($myfile);
+chmod("/wwqp/" . md5($_REQUEST["create_time"]) . ".html", 0755);
 
 echo true;
