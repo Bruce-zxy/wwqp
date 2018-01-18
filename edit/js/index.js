@@ -296,22 +296,23 @@ function downloadLayoutSrc() {
     if ($("#download-layout .container").length > 0) {
         changeStructure("row-fluid", "row")
     }
-    formatSrc = $.htmlClean($("#download-layout").html(), {
-        format: true,
-        allowedAttributes: [
-            ["id"],
-            ["class"],
-            ["data-toggle"],
-            ["data-target"],
-            ["data-parent"],
-            ["role"],
-            ["data-dismiss"],
-            ["aria-labelledby"],
-            ["aria-hidden"],
-            ["data-slide-to"],
-            ["data-slide"]
-        ]
-    });
+    // formatSrc = $.htmlClean($("#download-layout").html(), {
+    //     format: true,
+    //     allowedAttributes: [
+    //         ["id"],
+    //         ["class"],
+    //         ["data-toggle"],
+    //         ["data-target"],
+    //         ["data-parent"],
+    //         ["role"],
+    //         ["data-dismiss"],
+    //         ["aria-labelledby"],
+    //         ["aria-hidden"],
+    //         ["data-slide-to"],
+    //         ["data-slide"]
+    //     ]
+    // });
+    var formatSrc = $("#download-layout").html()
     $("#download-layout").html(formatSrc);
     $("#downloadModal textarea").empty();
     $("#downloadModal textarea").val(formatSrc);
