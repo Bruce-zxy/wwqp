@@ -20,7 +20,7 @@
 					height           : "400px",  					// 宽度
 					itemWidth        : "140px",                     // 文件项的宽度
 					itemHeight       : "120px",                     // 文件项的高度
-					url              : "/wwqp/edit/fileupload.php",  	// 上传文件的路径
+					url              : "/edit/fileupload.php",  	// 上传文件的路径
 					multiple         : true,  						// 是否可以多个文件上传
 					dragDrop         : true,  						// 是否可以拖动上传文件
 					del              : true,  						// 是否可以删除文件
@@ -331,9 +331,15 @@
 						eleProgress.css("width",percent);
 					},
 					onSuccess: function(file, response) {
+						var res = JSON.parse(response);
 						$("#uploadProgress_" + file.index).hide();
 						$("#uploadSuccess_" + file.index).show();
-						$("#uploadInf").append("<p>上传成功，文件地址是：" + response + "</p>");
+						if (res.result) {
+							$("#uploadInf").append("<p style='color:green'>上传成功，图片地址：<a href='" + res.status + "' target='_blank'>" + res.status + "</a></p>");
+						}else if (!res.result) {
+							$("#uploadInf").append("<p style='color:red'>上传失败，失败原因：" + res.status + "</p>");
+						}
+						
 						// 根据配置参数确定隐不隐藏上传成功的文件
 						console.log(response);
 						if(para.finishDel){

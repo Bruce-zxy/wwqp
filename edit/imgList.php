@@ -41,7 +41,7 @@ for ($x = 2; $x <= $len - 1; $x++) {
     $temp = new Lists();
     $temp->name = $a[$x];
     $temp->size = Fsize(filesize($dir . $a[$x]));
-    $temp->path = 'http://' . $_SERVER['HTTP_HOST'] . '/wwqp/imgs/' . $a[$x];
+    $temp->path = 'http://wwqp.zhuxiaoyi.com/imgs/' . $a[$x];
     $temp->time = date("Y-m-d H:i:s", filemtime($dir . $a[$x]));
     array_push($list, $temp);
 }

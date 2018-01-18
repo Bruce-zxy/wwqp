@@ -334,21 +334,21 @@ $foot = '
     <div class="botwidth">
         <div class="botmenu">
 
-            <a href="http:/' . $_SERVER["HTTP_HOST"] . '/wwqp">首页</a>
+            <a href="http:/wwqp.zhuxiaoyi.com">首页</a>
 
-            |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/wwqp/companyabout.htm">公司介绍</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companyabout.htm">公司介绍</a>
 
-            |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/wwqp/companyproduct.htm">游戏展示</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companyproduct.htm">游戏展示</a>
 
-            |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/wwqp/companysupply.htm">旺旺棋牌</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companysupply.htm">旺旺棋牌</a>
 
-            |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/wwqp/companynews.htm">新闻资讯</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companynews.htm">新闻资讯</a>
 
-            |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/wwqp/companydownloads.htm">游戏下载</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companydownloads.htm">游戏下载</a>
 
-            |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/wwqp/companycontact.htm">联系我们</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companycontact.htm">联系我们</a>
 
-            |&nbsp;<a href="http://' . $_SERVER["HTTP_HOST"] . '/promisesp/promisesp.htm" target="_blank" rel="nofollow">免责声明</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/promisesp.htm" target="_blank" rel="nofollow">免责声明</a>
 
         </div>
     </div>
@@ -364,18 +364,18 @@ $foot = '
 
     <div id="divAd1">
         <a href="./index.html" target="_blank">
-            <img alt="" src="./imgs/ad.jpg" border="0" width="100px" height="240px">
+            <img alt="" src="./adImg/ad.jpg" border="0" width="100px" height="240px">
         </a>
         <a href="javascript:;">
-            <img alt="" src="./imgs/close.gif" border="0">
+            <img alt="" src="./adImg/close.gif" border="0">
         </a>
     </div>
     <div id="divAd2">
         <a href="./index.html" target="_blank">
-            <img alt="" src="./imgs/ad.jpg" border="0" width="100px" height="240px">
+            <img alt="" src="./adImg/ad.jpg" border="0" width="100px" height="240px">
         </a>
         <a href="javascript:;">
-            <img alt="" src="./imgs/close.gif" border="0">
+            <img alt="" src="./adImg/close.gif" border="0">
         </a>
     </div>
 </body>
@@ -393,6 +393,6 @@ fwrite($myfile, $head);
 fwrite($myfile, base64_decode($content));
 fwrite($myfile, $foot);
 fclose($myfile);
-chmod("/wwqp/" . md5($_REQUEST["create_time"]) . ".html", 0755);
+chmod("../" . md5($_REQUEST["create_time"]) . ".html", 0755);
 
 echo true;

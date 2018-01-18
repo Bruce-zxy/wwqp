@@ -13,10 +13,10 @@ var demoHtml = $(".demo").html();
 var currenteditor = null;
 var layoutName = null;
 var parentFolder = 0;
-var host = "www.zhuxiaoyi.com";
-var addressSave = "http://" + host + "/wwqp/edit/save.php";
-var addressCreate = "http://" + host + "/wwqp/edit/create.php";
-var addressImg = "http://" + host + "/wwqp/edit/imgList.php";
+var host = "wwqp.zhuxiaoyi.com";
+var addressSave = "http://" + host + "/edit/save.php";
+var addressCreate = "http://" + host + "/edit/create.php";
+var addressImg = "http://" + host + "/edit/imgList.php";
 var imgList = [];
 
 (function () {
