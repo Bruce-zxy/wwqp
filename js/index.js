@@ -14,6 +14,18 @@ var Request = new Object();
     if(Request["name"]) {
         name = Request["name"];
     }
+
+    // 百度收录
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
 })();
 
 var products = function (name, link, imgSrc, createTime) {
@@ -97,18 +109,4 @@ $(".search_info .btn").click(function (e) {
     var val = $(this).parent().parent().find("input").val();
     window.location.href = "./search.html?name=" + val;
 })
-
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-
 

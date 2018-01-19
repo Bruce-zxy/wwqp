@@ -29,7 +29,7 @@ a,a:hover,a:active,a:focus { text-decoration: none!important; cursor: pointer!im
 .products-show { float: left; padding-right: 15px; padding-left: 15px; }
 .products-show h3 { margin: 0 20px; border-bottom: 2px solid #ddd; }
 .products-show h3 b { display: inline-block; float: right; font-size: 14px; height: 40px; line-height: 40px; }
-.products-show img { width: 100%; }
+/*.products-show img { width: 100%; }*/
 .products-title { position: relative; top: 2px; display: inline-block; height: 40px; line-height: 40px; color: #575757; font-size: 18px; font-weight: bold; padding: 0 20px; box-sizing: border-box; border-bottom: 2px solid #337ab7; }
 .products-content .pagination { float: right; margin-top: 100px; }
 .products-content .pagination li:last-child { float: left; padding: 6px 12px; }
