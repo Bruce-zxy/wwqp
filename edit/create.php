@@ -337,19 +337,19 @@ $foot = '
 
             <a href="http:/wwqp.zhuxiaoyi.com">首页</a>
 
-            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companyabout.htm">公司介绍</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com">公司介绍</a>
 
-            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companyproduct.htm">游戏展示</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com">游戏展示</a>
 
-            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companysupply.htm">旺旺棋牌</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com">旺旺棋牌</a>
 
-            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companynews.htm">新闻资讯</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com">新闻资讯</a>
 
-            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companydownloads.htm">游戏下载</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com">游戏下载</a>
 
-            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/companycontact.htm">联系我们</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com">联系我们</a>
 
-            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com/promisesp.htm" target="_blank" rel="nofollow">免责声明</a>
+            |&nbsp;<a href="http://wwqp.zhuxiaoyi.com" target="_blank" rel="nofollow">免责声明</a>
 
         </div>
     </div>
