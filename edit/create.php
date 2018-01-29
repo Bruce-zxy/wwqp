@@ -396,4 +396,19 @@ fwrite($myfile, $foot);
 fclose($myfile);
 chmod("../" . md5($_REQUEST["create_time"]) . ".html", 0755);
 
+$urls = array(
+    'http://wwqp.zhuxiaoyi.com/' . md5($_REQUEST["create_time"]) . '.html',
+);
+$api = 'http://data.zz.baidu.com/urls?site=wwqp.zhuxiaoyi.com&token=Bh2EW4dvSRpkMJ5r';
+$ch = curl_init();
+$options = array(
+    CURLOPT_URL => $api,
+    CURLOPT_POST => true,
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_POSTFIELDS => implode("\n", $urls),
+    CURLOPT_HTTPHEADER => array('Content-Type: text/plain'),
+);
+curl_setopt_array($ch, $options);
+$result = curl_exec($ch);
+
 echo true;
