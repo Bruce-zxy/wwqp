@@ -10,8 +10,6 @@ $content = $_REQUEST["content"];
 $head = '
 <!DOCTYPE html>
 <html lang="zh-CN">
-<!------分------割------线------>
-
 <head>
     <meta charset="UTF-8">
     <meta name="Author" content="Bruce Zhu">
@@ -28,8 +26,6 @@ $head = '
     <link rel="stylesheet" type="text/css" href="./lib/swiper-3.4.2.min.css">
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
 </head>
-<!------分------割------线------>
-
 <body>
     <div class="header">
         <div class="title-kuang">
@@ -384,8 +380,6 @@ $foot = '
 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./lib/swiper-3.4.2.jquery.min.js"></script>
 <script type="text/javascript" src="./js/index.js"></script>
-<!------分------割------线------>
-
 </html>
 ';
 
